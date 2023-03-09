@@ -1,0 +1,24 @@
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.questionNum {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 12px;
+}
+
+.questionText {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 25px;
+}
+
+.answer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 15px;
+  width: 70%;
+}
