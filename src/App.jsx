@@ -100,7 +100,11 @@ function App() {
   return (
     <div className="App">
       {isQuizOver ? (
-        <Score resetHandleClick={resetHandleClick} score={score} />
+        <Score
+          resetHandleClick={resetHandleClick}
+          questions={questions}
+          score={score}
+        />
       ) : (
         <Quiz
           questions={questions}
